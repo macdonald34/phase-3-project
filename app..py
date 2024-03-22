@@ -1,7 +1,7 @@
 import os
 import sys
 
-from colorama import Fore, Style
+from  colorama import Fore, Style
 from pyfiglet import figlet_format
 
 from utils import database
