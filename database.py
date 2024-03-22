@@ -1,5 +1,6 @@
 from utils.database_connection import DatabaseConnection, connect
 
+
 def create_books_table():
     with connect() as connection:
         connection.cursor().execute(
